@@ -115,7 +115,7 @@
               </div>
             </li>
             <!-- Akhir Dropdown3 -->
-            <button class="bg-grad-purple text-white px-4 py-1 rounded-lg hover:bg-teal-600">Log-Out</button>
+            <button id="logout-button" class="bg-grad-purple text-white px-4 py-1 rounded-lg hover:bg-teal-600">Log-Out</button>
           </ul>
         </div>
       </div>
@@ -190,11 +190,20 @@
       <button class="bg-grad-blue text-white font-semibold px-4 py-1 rounded-lg">Unduh Data</button>
     </div>
     <!-- Akhir Tabel -->
+
+    <!-- grafik -->
+    <div>
+      <canvas class="tablet:mx-4" id="myChart"></canvas>
+    </div>
+    <!-- akhir grafik -->
+
     <!-- Footer -->
     <footer class="mt-6 font-bold text-white text-center">Copyright E-Posyandu 2022</footer>
     <!-- Akhir Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </body>
-
+  <script src="/src/js/chart.js"></script>
   <script src="/node_modules/flowbite/dist/flowbite.min.js"></script>
   <script src="/src/js/dashboard.js"></script>
+  <script src="/src/js/logout.js"></script>
 </html>

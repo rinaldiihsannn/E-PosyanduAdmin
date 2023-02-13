@@ -115,7 +115,7 @@
               </div>
             </li>
             <!-- Akhir Dropdown3 -->
-            <button class="bg-grad-purple text-white px-4 py-1 rounded-lg hover:bg-teal-600">Log-Out</button>
+            <button id="logout-button" class="bg-grad-purple text-white px-4 py-1 rounded-lg hover:bg-teal-600">Log-Out</button>
           </ul>
         </div>
       </div>
@@ -129,8 +129,6 @@
       <div>
         <label class="font-semibold" for="NoKK">Nomor KK</label><br />
         <input class="w-full rounded-lg mt-2 mb-2 border-gray-300" type="number" name="NoKK" id="NoKK" />
-        <label class="font-semibold" for="gambarKK">Masukkan Foto KK:</label><br />
-        <input class="my-2 rounded-lg border-gray-300 w-full" type="file" id="gambarKK" accept="image/*" /><br />
         <label class="font-semibold" for="namaAyah">Nama Ayah</label><br />
         <input class="w-full rounded-lg mt-2 mb-2 border-gray-300" type="text" name="namaAyah" id="namaAyah" />
         <label class="font-semibold" for="NIKayah">NIK Ayah</label><br />
@@ -153,6 +151,7 @@
 
     <script src="/node_modules/flowbite/dist/flowbite.min.js"></script>
     <script src="/src/js/dashboard.js"></script>
+    <script src="/src/js/logout.js"></script>
     <script>
       function validateSize() {
         let gambar = document.getElementById('gambarKK').files[0];
