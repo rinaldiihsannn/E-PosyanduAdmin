@@ -905,16 +905,6 @@ input[type="range"]::-ms-fill-lower {
   margin-bottom: 1.5rem;
 }
 
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-}
-
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
 .mt-60 {
   margin-top: 15rem;
 }
@@ -1005,18 +995,6 @@ input[type="range"]::-ms-fill-lower {
 
 .h-12 {
   height: 3rem;
-}
-
-.h-24 {
-  height: 6rem;
-}
-
-.h-60 {
-  height: 15rem;
-}
-
-.h-full {
-  height: 100%;
 }
 
 .min-h-fit {
@@ -1434,6 +1412,11 @@ input[type="range"]::-ms-fill-lower {
     margin-right: 2.5rem;
   }
 
+  .tablet\:mx-4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
   .tablet\:my-10 {
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
@@ -1447,11 +1430,6 @@ input[type="range"]::-ms-fill-lower {
   .tablet\:mx-32 {
     margin-left: 8rem;
     margin-right: 8rem;
-  }
-
-  .tablet\:mx-4 {
-    margin-left: 1rem;
-    margin-right: 1rem;
   }
 
   .tablet\:mt-0 {
@@ -1516,14 +1494,6 @@ input[type="range"]::-ms-fill-lower {
 
   .tablet\:hidden {
     display: none;
-  }
-
-  .tablet\:h-0 {
-    height: 0px;
-  }
-
-  .tablet\:h-full {
-    height: 100%;
   }
 
   .tablet\:w-auto {
